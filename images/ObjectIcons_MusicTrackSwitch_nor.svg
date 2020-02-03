@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-439,-125)">
+        <g transform="matrix(1,0,0,1,438,125)">
+            <g id="ObjectIcons_MusicTrackSwitch_nor">
+                <g id="Icons">
+                    <g transform="matrix(1,0,0,1,-39,-25)">
+                        <g id="Base-Block" serif:id="Base Block">
+                            <path d="M55,27.1C55,25.941 54.059,25 52.9,25L42.1,25C40.941,25 40,25.941 40,27.1L40,37.9C40,39.059 40.941,40 42.1,40L52.9,40C54.059,40 55,39.059 55,37.9L55,27.1Z" style="fill-opacity:0;"/>
+                        </g>
+                    </g>
+                    <path d="M8.92,15L8.08,15C7.484,15 7,14.516 7,13.92L7,13L3.6,13C2.717,13 2,12.283 2,11.4L2,3.6C2,2.718 2.715,2.002 3.6,2L7,2L7,1.08C7,0.485 7.483,0.001 8.08,0L8.92,0C9.517,0.001 10,0.485 10,1.08L10,13.92C10,14.513 9.521,14.995 8.92,15ZM9,14L9,1L8,1L8,3L3.96,3C3.43,3 3,3.43 3,3.96L3,11.04C3,11.57 3.43,12 3.96,12L8,12L8,14L9,14Z" style="fill:rgb(196,196,196);"/>
+                    <g transform="matrix(1,0,0,1,2,-1.13687e-13)">
+                        <path d="M2,3L5,3L5,7.625L5,7L4.197,7L3.156,3.685L2.467,6.329L2.098,5.863L1.76,7.324L1.01,7.343L1.01,7.709L1.756,7.712L2.098,9.156L2.467,8.688L3.156,11.347L4.253,8L5,8L5,12L2,12C1.448,12 1,11.552 1,11L1,4C1,3.449 1.446,3.002 2,3Z"/>
+                        <g transform="matrix(1,0,0,1,-102.422,-75)">
+                            <path d="M104.182,82.324L104.52,80.863L104.89,81.329L105.578,78.685L106.619,82L107.422,82L107.422,83L106.676,83L105.578,86.347L104.89,83.688L104.52,84.156L104.178,82.712L103.432,82.709L103.432,82.343L104.182,82.324Z" style="fill:rgb(196,196,196);"/>
+                        </g>
+                        <g transform="matrix(1,0,0,0.363636,-1,7.27273)">
+                            <rect x="6" y="2" width="1" height="11" style="fill:rgb(108,108,108);"/>
+                        </g>
+                        <g transform="matrix(1,0,0,0.363636,-1,2.27273)">
+                            <rect x="6" y="2" width="1" height="11" style="fill:rgb(108,108,108);"/>
+                        </g>
+                        <g transform="matrix(1,0,0,0.0909091,-1,6.81818)">
+                            <rect x="6" y="2" width="1" height="11" style="fill:rgb(149,149,149);"/>
+                        </g>
+                        <rect x="6" y="2" width="1" height="11" style="fill:rgb(57,57,57);"/>
+                        <g transform="matrix(1,0,0,1,0,-12)">
+                            <rect x="6" y="13" width="1" height="1" style="fill:rgb(108,108,108);"/>
+                        </g>
+                        <g transform="matrix(1,0,0,1,0,12)">
+                            <rect x="6" y="1" width="1" height="1" style="fill:rgb(108,108,108);"/>
+                        </g>
+                    </g>
+                    <path d="M13.2,14L11.8,14C10.807,14 10,13.193 10,12.2L10,10.8C10,10.289 10.214,9.827 10.558,9.5C10.214,9.173 10,8.711 10,8.2L10,6.8C10,6.289 10.214,5.827 10.558,5.5C10.214,5.173 10,4.711 10,4.2L10,2.8C10,1.808 10.804,1.002 11.8,1L13.2,1C14.196,1.002 15,1.808 15,2.8L15,4.2C15,4.711 14.786,5.173 14.442,5.5C14.786,5.827 15,6.289 15,6.8L15,8.2C15,8.711 14.786,9.173 14.442,9.5C14.786,9.827 15,10.289 15,10.8L15,12.2C15,13.193 14.195,13.999 13.2,14ZM14,10L11,10L11,13L14,13L14,10ZM14,6L11,6L11,9L14,9L14,6ZM14,2L11,2L11,5L14,5L14,2Z" style="fill:rgb(196,196,196);"/>
+                    <g transform="matrix(1,0,0,1,1,-8)">
+                        <rect x="10" y="10" width="3" height="3" style="fill:rgb(57,57,57);"/>
+                    </g>
+                    <g transform="matrix(1,0,0,1,1,-4)">
+                        <rect x="10" y="10" width="3" height="3" style="fill:rgb(57,57,57);"/>
+                    </g>
+                    <g transform="matrix(1,0,0,1,1,0)">
+                        <rect x="10" y="10" width="3" height="3" style="fill:rgb(57,57,57);"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

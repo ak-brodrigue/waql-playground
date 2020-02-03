@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-60,-45)">
+        <g transform="matrix(1,0,0,1,60,45)">
+            <g id="ObjectIcons_ActionBreak_nor">
+                <g id="Icons">
+                    <g transform="matrix(1,0,0,1,-40,-25)">
+                        <g id="Base-Block" serif:id="Base Block">
+                            <path d="M55,27.1C55,25.941 54.059,25 52.9,25L42.1,25C40.941,25 40,25.941 40,27.1L40,37.9C40,39.059 40.941,40 42.1,40L52.9,40C54.059,40 55,39.059 55,37.9L55,27.1Z" style="fill-opacity:0;"/>
+                        </g>
+                    </g>
+                    <path d="M13.25,11L9.75,11C8.784,11 8,10.216 8,9.25L8,9L5.497,9C5.043,9.608 4.318,10 3.5,10C2.119,10 1,8.88 1,7.5C1,6.12 2.119,5 3.5,5C4.318,5 5.043,5.392 5.497,6L8,6L8,5.75C8,4.784 8.784,4 9.75,4L13.25,4C14.216,4 15,4.784 15,5.75L15,9.25C15,10.214 14.219,10.997 13.25,11ZM14,10L14,5L9,5L9,7L4.914,7C4.709,6.418 4.153,6 3.5,6C2.671,6 2,6.672 2,7.5C2,8.328 2.671,9 3.5,9C4.153,9 4.709,8.582 4.914,8L9,8L9,10L14,10Z" style="fill:rgb(196,196,196);"/>
+                    <g transform="matrix(-0.333333,0,0,1,9.33333,-1.42109e-14)">
+                        <rect x="4" y="7" width="6" height="1" style="fill:rgb(57,57,57);"/>
+                    </g>
+                    <g transform="matrix(-1,0,0,1,22,-1.42109e-14)">
+                        <rect x="8" y="5" width="5" height="5" style="fill:rgb(57,57,57);"/>
+                    </g>
+                    <g transform="matrix(0.857143,0,0,0.857143,5,7.5)">
+                        <path d="M0,0C0,0.966 -0.783,1.75 -1.75,1.75C-2.717,1.75 -3.5,0.966 -3.5,0C-3.5,-0.966 -2.717,-1.75 -1.75,-1.75C-0.783,-1.75 0,-0.966 0,0"/>
+                    </g>
+                    <g transform="matrix(-0.178203,0,0,1,6.71281,-5.06262e-14)">
+                        <rect x="4" y="7" width="6" height="1" style="fill:rgb(160,160,160);"/>
+                    </g>
+                    <g transform="matrix(-0.166667,0,0,1,9.66667,-4.52971e-14)">
+                        <rect x="4" y="7" width="6" height="1" style="fill:rgb(160,160,160);"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

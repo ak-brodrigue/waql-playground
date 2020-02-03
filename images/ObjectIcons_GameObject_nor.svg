@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-20,-245)">
+        <g id="ObjectIcons_GameObject_nor" transform="matrix(1,0,0,1,-160,140)">
+            <g transform="matrix(1,0,0,1,140,80)">
+                <g id="Base-Block" serif:id="Base Block">
+                    <path d="M55,27.1C55,25.941 54.059,25 52.9,25L42.1,25C40.941,25 40,25.941 40,27.1L40,37.9C40,39.059 40.941,40 42.1,40L52.9,40C54.059,40 55,39.059 55,37.9L55,27.1Z" style="fill-opacity:0;"/>
+                </g>
+            </g>
+            <g transform="matrix(0.906593,0,0,0.931988,181.154,104.995)">
+                <path d="M6.158,15.838C6.716,16.169 7.275,16.193 7.836,15.873L14.799,12.781C15.133,12.57 15.267,12.272 15.273,11.918L15.273,3.171C15.239,2.623 14.953,2.302 14.467,2.162L7.541,0.183C7.108,0.032 6.709,0.05 6.332,0.182L-0.308,2.109C-0.916,2.33 -1.257,2.689 -1.273,3.215L-1.273,11.699C-1.264,12.317 -1.046,12.67 -0.652,12.8L6.158,15.838Z" style="fill:rgb(196,196,196);"/>
+            </g>
+            <g transform="matrix(0.906593,0,0,0.860297,181.154,106.07)">
+                <path d="M7.033,15L14.17,11.542L14.17,2.243L6.93,-0.082L-0.17,2.243L-0.17,11.542L7.033,15ZM6.464,6.489L1.048,3.892L0.933,10.087L6.448,12.673L6.464,6.489ZM12.269,3.253L7,1.516L2.522,3.004L7.577,5.179L12.269,3.253Z" style="fill:rgb(57,57,57);"/>
+            </g>
+        </g>
+    </g>
+</svg>

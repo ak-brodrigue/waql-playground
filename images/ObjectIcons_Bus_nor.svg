@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-120,-85)">
+        <g transform="matrix(1,0,0,1,120,85)">
+            <g id="ObjectIcons_Bus_nor">
+                <g id="Icons">
+                    <g transform="matrix(1,0,0,1,-40,-25)">
+                        <g id="Base-Block" serif:id="Base Block">
+                            <path d="M55,27.1C55,25.941 54.059,25 52.9,25L42.1,25C40.941,25 40,25.941 40,27.1L40,37.9C40,39.059 40.941,40 42.1,40L52.9,40C54.059,40 55,39.059 55,37.9L55,27.1Z" style="fill-opacity:0;"/>
+                        </g>
+                    </g>
+                    <path d="M11,13L4,13L4,11L1.75,11C0.784,11 0,10.216 0,9.25L0,5.75C0,4.786 0.781,4.003 1.75,4L4,4L4,2L11,2L11,4L13.25,4C14.219,4.003 15,4.786 15,5.75L15,9.25C15,10.216 14.216,11 13.25,11L11,11L11,13ZM10,12L10,3L5,3L5,5L4,5L4,6L5,6L5,7L4,7L4,8L5,8L5,9L4,9L4,10L5,10L5,12L10,12ZM14,10L14,9L11,9L10,9L10,10L14,10ZM4,10L4,9L1,9L1,10L4,10ZM14,8L14,7L11,7L10,7L10,8L14,8ZM4,8L4,7L1,7L1,8L4,8ZM14,6L14,5L11,5L10,5L10,6L14,6ZM4,6L4,5L1,5L1,6L4,6Z" style="fill:rgb(196,196,196);"/>
+                    <g transform="matrix(1,0,0,1,-160,-25)">
+                        <path d="M170,28L170,37L165,37L165,28L170,28ZM174,35L171,35L171,34L174,34L174,35ZM164,35L161,35L161,34L164,34L164,35ZM174,33L171,33L171,32L174,32L174,33ZM164,33L161,33L161,32L164,32L164,33ZM174,31L171,31L171,30L174,30L174,31ZM164,31L161,31L161,30L164,30L164,31Z" style="fill:rgb(57,57,57);"/>
+                    </g>
+                    <g transform="matrix(1,0,0,1,-160,-25)">
+                        <path d="M171,35L170,35L170,34L171,34L171,35ZM165,35L164,35L164,34L165,34L165,35ZM171,33L170,33L170,32L171,32L171,33ZM165,33L164,33L164,32L165,32L165,33ZM171,31L170,31L170,30L171,30L171,31ZM165,31L164,31L164,30L165,30L165,31Z" style="fill:rgb(108,108,108);"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

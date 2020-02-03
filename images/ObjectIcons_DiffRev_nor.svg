@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-180,-165)">
+        <g transform="matrix(1,0,0,1,180,165)">
+            <g id="ObjectIcons_DiffRev_nor">
+                <g id="Icons">
+                    <g transform="matrix(1,0,0,1,-40,-25)">
+                        <g id="Base-Block" serif:id="Base Block">
+                            <path d="M55,27.1C55,25.941 54.059,25 52.9,25L42.1,25C40.941,25 40,25.941 40,27.1L40,37.9C40,39.059 40.941,40 42.1,40L52.9,40C54.059,40 55,39.059 55,37.9L55,27.1Z" style="fill-opacity:0;"/>
+                        </g>
+                    </g>
+                    <g transform="matrix(1,0,0,1,-220,-25.0671)">
+                        <path d="M224.59,39L224.41,39C224.41,39 222.59,39 222.59,39C222.59,39 222.41,39 222.41,39C221.632,39 221,38.368 221,37.59L221,27.41C221,26.632 221.632,26 222.41,26L222.59,26C223.368,26 224,26.632 224,27.41L224,30.061C224.13,30.021 224.267,30 224.41,30L224.59,30C225.368,30 226,30.632 226,31.41L226,33.061C226.13,33.021 226.267,33 226.41,33L226.59,33C227.368,33 228,33.632 228,34.41L228,35.061C228.13,35.021 228.267,35 228.41,35L228.59,35C229.252,35 229.809,35.458 229.96,36.074C230.101,36.026 230.253,36 230.41,36L230.59,36C230.937,36 231.254,36.125 231.5,36.333C231.746,36.125 232.063,36 232.41,36L232.59,36C233.368,36 234,36.632 234,37.41L234,37.59C234,38.368 233.368,39 232.59,39L232.41,39C232.41,39 230.59,39 230.59,39C230.59,39 230.41,39 230.41,39C230.41,39 224.59,39 224.59,39ZM231,38L231,37L230,37L230,38L231,38ZM233,38L233,37L232,37L232,38L233,38ZM229,38L229,36L228,36L228,38L229,38ZM227,38L227,34L226,34L226,38L227,38ZM225,38L225,31L224,31L224,38L225,38ZM223,38L223,27L222,27L222,38L223,38Z" style="fill:rgb(196,196,196);"/>
+                    </g>
+                    <g transform="matrix(-1,0,0,1,5,-0.0671476)">
+                        <rect x="2" y="2" width="1" height="11"/>
+                    </g>
+                    <g transform="matrix(-1,0,0,1,9,3.93285)">
+                        <rect x="4" y="2" width="1" height="7"/>
+                    </g>
+                    <g transform="matrix(-1,0,0,1,13,6.93285)">
+                        <rect x="6" y="2" width="1" height="4"/>
+                    </g>
+                    <g transform="matrix(-1,0,0,1,17,8.93285)">
+                        <rect x="8" y="2" width="1" height="2"/>
+                    </g>
+                    <g transform="matrix(-1,0,0,1,21,9.93285)">
+                        <rect x="10" y="2" width="1" height="1"/>
+                    </g>
+                    <g transform="matrix(-1,-0,0,1,25,9.93285)">
+                        <rect x="12" y="2" width="1" height="1"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

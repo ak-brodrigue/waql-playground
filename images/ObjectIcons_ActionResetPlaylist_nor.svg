@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-240,-45)">
+        <g transform="matrix(1,0,0,1,240,45)">
+            <g id="ObjectIcons_ActionResetPlaylist_nor">
+                <g id="Icons">
+                    <g transform="matrix(1,0,0,1,-40,-25)">
+                        <g id="Base-Block" serif:id="Base Block">
+                            <path d="M55,27.1C55,25.941 54.059,25 52.9,25L42.1,25C40.941,25 40,25.941 40,27.1L40,37.9C40,39.059 40.941,40 42.1,40L52.9,40C54.059,40 55,39.059 55,37.9L55,27.1Z" style="fill-opacity:0;"/>
+                        </g>
+                    </g>
+                    <path d="M12.52,3C13.338,3.001 14,3.664 14,4.48L14,5.52C14,6.337 13.337,7 12.52,7L8.48,7C7.663,7 7,6.337 7,5.52L7,4.48C7,3.664 7.662,3.001 8.48,3L12.52,3ZM13,4L8,4L8,6L13,6L13,4Z" style="fill:rgb(196,196,196);"/>
+                    <path d="M12.52,7C13.338,7.001 14,7.664 14,8.48L14,9.52C14,10.337 13.337,11 12.52,11L8.48,11C7.663,11 7,10.337 7,9.52L7,8.48C7,7.664 7.662,7.001 8.48,7L12.52,7ZM13,8L8,8L8,10L13,10L13,8Z" style="fill:rgb(196,196,196);"/>
+                    <path d="M12.52,11C13.338,11.001 14,11.664 14,12.48L14,13.52C14,14.337 13.337,15 12.52,15L8.48,15C7.663,15 7,14.337 7,13.52L7,12.48C7,11.664 7.662,11.001 8.48,11L12.52,11ZM13,12L8,12L8,14L13,14L13,12Z" style="fill:rgb(196,196,196);"/>
+                    <g transform="matrix(1,0,0,2,1,4)">
+                        <rect x="7" y="4" width="5" height="1" style="fill:rgb(57,57,57);"/>
+                    </g>
+                    <g transform="matrix(1,0,0,2,1,-4)">
+                        <rect x="7" y="6" width="5" height="1" style="fill:rgb(57,57,57);"/>
+                    </g>
+                    <g transform="matrix(1,0,0,2,1,-16)">
+                        <rect x="7" y="10" width="5" height="1" style="fill:rgb(57,57,57);"/>
+                    </g>
+                    <path d="M1.958,1.183C1.371,0.909 1.08,1.226 1,1.967L1,9.051C1.064,9.974 1.385,10.309 2.062,9.826L6.615,6.373C7.187,5.712 7.079,5.164 6.572,4.683L1.958,1.183ZM2,2.518L2,8.518L5.8,5.518L2,2.518Z" style="fill:rgb(196,196,196);"/>
+                    <g transform="matrix(1.26667,0,0,1.2,2,8.51791)">
+                        <path d="M0,-5L0,0L3,-2.5L0,-5Z"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

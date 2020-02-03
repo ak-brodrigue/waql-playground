@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-140,-85)">
+        <g transform="matrix(1,0,0,1,140,85)">
+            <g id="ObjectIcons_AuxBus_nor">
+                <g id="Icons">
+                    <g transform="matrix(1,0,0,1,-40,-25)">
+                        <g id="Base-Block" serif:id="Base Block">
+                            <path d="M55,27.1C55,25.941 54.059,25 52.9,25L42.1,25C40.941,25 40,25.941 40,27.1L40,37.9C40,39.059 40.941,40 42.1,40L52.9,40C54.059,40 55,39.059 55,37.9L55,27.1Z" style="fill-opacity:0;"/>
+                        </g>
+                    </g>
+                    <path d="M10,14L5.576,14L1,9.55L1,5L2,5L2,2.5C2,1.674 2.669,1.003 3.5,1L7.5,1C8.331,1.003 9,1.674 9,2.5L9,5L10,5L10,6L12.25,6C13.219,6.003 14,6.786 14,7.75L14,11.25C14,12.214 13.219,12.997 12.25,13L10,13L10,14ZM4,5L4,2L3,2L3,6L2,6L2,9L6,13L9,13L9,12L13,12L13,11L10.022,11L9,11L9,10L13,10L13,9L10.022,9L9,9L9,8L13,8L13,7L10.022,7L9,7L9,6L8,6L8,5L8,2L7,2L7,6L6,6L6,5L6,2L5,2L5,6L4,6L4,5Z" style="fill:rgb(196,196,196);"/>
+                    <g transform="matrix(1,0,0,1,-121,-24)">
+                        <path d="M134,35L134,36L131,36L131,35L134,35ZM130,30L130,37L127,37L123,33L123,30L130,30ZM134,33L134,34L131,34L131,33L134,33ZM134,31L134,32L131,32L131,31L134,31ZM127,29L126,29L126,26L127,26L127,29ZM125,29L124,29L124,26L125,26L125,29ZM129,29L128,29L128,26L129,26L129,29Z" style="fill:rgb(57,57,57);"/>
+                    </g>
+                    <g transform="matrix(1,0,0,1,-121,-24)">
+                        <path d="M131,36L130,36L130,35L131,35L131,36ZM131,34L130,34L130,33L131,33L131,34ZM131,32L130,32L130,31L131,31L131,32ZM125,30L124,30L124,29L125,29L125,30ZM127,30L126,30L126,29L127,29L127,30ZM129,30L128,30L128,29L129,29L129,30Z" style="fill:rgb(108,108,108);"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

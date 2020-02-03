@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-120,-205)">
+        <g transform="matrix(1,0,0,1,120,205)">
+            <g id="ObjectIcons_Argument_nor">
+                <g id="Icons">
+                    <g transform="matrix(1,0,0,1,-40,-25)">
+                        <g id="Base-Block" serif:id="Base Block">
+                            <path d="M55,27.1C55,25.941 54.059,25 52.9,25L42.1,25C40.941,25 40,25.941 40,27.1L40,37.9C40,39.059 40.941,40 42.1,40L52.9,40C54.059,40 55,39.059 55,37.9L55,27.1Z" style="fill-opacity:0;"/>
+                        </g>
+                    </g>
+                    <path d="M8,2C10.21,2.002 12,3.794 12,6L11.997,6.107L12,6.16L12,11.84C12,12.48 11.48,13 10.84,13L9.16,13C8.52,13 8,12.48 8,11.84L8,10C8,10 7,10 7,10C7,10 7,11.84 7,11.84C7,12.48 6.48,13 5.84,13L4.16,13C3.52,13 3,12.48 3,11.84L3,6.16L3.003,6.107L3,6C3,3.794 4.79,2.002 7,2L8,2Z" style="fill:rgb(196,196,196);"/>
+                    <path d="M8,3C9.777,3 11,4.341 11,6L11,12L9,12L9,9L6,9L6,12L4,12L4,6L4.001,5.921C4.035,4.277 5.146,3 7,3L8,3ZM8,5L7,5C6.474,5.06 6.074,5.297 6,6L6,7L9,7L9,6L8.992,5.935C8.902,5.282 8.51,5.058 8,5Z" style="fill:rgb(57,57,57);"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

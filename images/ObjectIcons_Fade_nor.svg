@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-220,-285)">
+        <g transform="matrix(1,0,0,1,218.287,285)">
+            <g id="ObjectIcons_Fade_nor">
+                <g id="Icons">
+                    <g transform="matrix(1,0,0,1,-38.2874,-25)">
+                        <g id="Object-Icon-Base" serif:id="Object Icon Base">
+                            <path d="M55,27.1C55,25.941 54.059,25 52.9,25L42.1,25C40.941,25 40,25.941 40,27.1L40,37.9C40,39.059 40.941,40 42.1,40L52.9,40C54.059,40 55,39.059 55,37.9L55,27.1Z" style="fill-opacity:0;"/>
+                        </g>
+                    </g>
+                    <g transform="matrix(-1,0,0,1,10.4253,1.13687e-13)">
+                        <g transform="matrix(-0.6,0,0,1,284.113,-45)">
+                            <rect x="459" y="48" width="15" height="10" style="fill:none;"/>
+                        </g>
+                        <g transform="matrix(1.10303,0,0,1.49981,-418.699,-72.4902)">
+                            <path d="M387.489,57L387.489,51C382.145,51.009 383.249,50.743 379.814,56.029C379.49,56.528 379.654,56.992 380.57,57L387.489,57Z" style="fill:rgb(196,196,196);"/>
+                        </g>
+                        <g transform="matrix(0.933333,0,0,1,-353.021,-45.0035)">
+                            <path d="M387.571,50L387.571,51C383.115,51.007 384.529,50.582 381.143,57L379.601,57L380.071,56.003C383.812,49.403 382.224,49.975 387.571,50Z" style="fill:rgb(43,43,43);"/>
+                        </g>
+                        <g transform="matrix(0.933333,0,0,1,-353.021,-45.0035)">
+                            <path d="M387.571,57L387.571,51C383.115,51.007 384.906,50.362 381.143,57L387.571,57Z" style="fill:rgb(160,160,160);"/>
+                        </g>
+                        <g transform="matrix(0.893698,0,0,1,-337.447,-43.9939)">
+                            <path d="M387.334,50L387.334,51C383.426,51.006 385.354,50.14 382.046,55.997L380.662,55.994C383.959,49.128 383.739,49.981 387.334,50Z" style="fill:rgb(178,178,178);"/>
+                        </g>
+                    </g>
+                    <g transform="matrix(1,0,0,1,8,1.13687e-13)">
+                        <g transform="matrix(-0.6,0,0,1,284.113,-45)">
+                            <rect x="459" y="48" width="15" height="10" style="fill:none;"/>
+                        </g>
+                        <g transform="matrix(1.10303,0,0,1.49981,-418.699,-72.4902)">
+                            <path d="M387.489,57L387.489,51C382.145,51.009 383.249,50.743 379.814,56.029C379.49,56.528 379.654,56.992 380.57,57L387.489,57Z" style="fill:rgb(196,196,196);"/>
+                        </g>
+                        <g transform="matrix(0.933333,0,0,1,-353.021,-45.0035)">
+                            <path d="M387.571,50L387.571,51C383.115,51.007 384.529,50.582 381.143,57L379.601,57L380.071,56.003C383.812,49.403 382.224,49.975 387.571,50Z" style="fill:rgb(43,43,43);"/>
+                        </g>
+                        <g transform="matrix(0.933333,0,0,1,-353.021,-45.0035)">
+                            <path d="M387.571,57L387.571,51C383.115,51.007 384.906,50.362 381.143,57L387.571,57Z" style="fill:rgb(160,160,160);"/>
+                        </g>
+                        <g transform="matrix(0.893698,0,0,1,-337.447,-43.9939)">
+                            <path d="M387.334,50L387.334,51C383.426,51.006 385.354,50.14 382.046,55.997L380.662,55.994C383.959,49.128 383.739,49.981 387.334,50Z" style="fill:rgb(178,178,178);"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

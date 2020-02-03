@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-260,-165)">
+        <g transform="matrix(1,0,0,1,260,165)">
+            <g id="ObjectIcons_Envelope_nor">
+                <g id="ADSR">
+                    <g transform="matrix(1,0,0,1,-40,-25)">
+                        <g id="Base-Block" serif:id="Base Block">
+                            <path d="M55,27.1C55,25.941 54.059,25 52.9,25L42.1,25C40.941,25 40,25.941 40,27.1L40,37.9C40,39.059 40.941,40 42.1,40L52.9,40C54.059,40 55,39.059 55,37.9L55,27.1Z" style="fill-opacity:0;"/>
+                        </g>
+                    </g>
+                    <g transform="matrix(1,0,0,1,0,1)">
+                        <path d="M6.433,9L5.34,7.381L4.3,11L4.264,12L0,12L0.242,11L3.442,1L4.479,0.058L5.213,1L8.847,6L12.489,6L15,10L15,12L11.22,12L11.224,11L10.207,9L6.433,9ZM10.895,8L12.581,11L14.263,11L11.991,7L8,7L5.418,3L4.567,1.536L4,3L1.515,11L3.016,11L5.135,4.848L7,8L10.895,8Z" style="fill:rgb(196,196,196);"/>
+                    </g>
+                    <g transform="matrix(1,0,0,1,11.0195,7.75)">
+                        <path d="M0.972,0.25L-3.02,0.25L-5.602,-3.75L-6.452,-5.214L-7.02,-3.75L-9.504,4.25L-8.003,4.25L-5.884,-1.902L-4.02,1.25L-0.125,1.25L1.562,4.25L3.244,4.25L0.972,0.25Z"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
