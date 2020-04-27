@@ -7,57 +7,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <script src="index.js"></script>
 
-    <title>Hello, world!</title>
-    
-    <style>
-    input.break {
-        word-wrap: break-word;
-        word-break: break-all;
-        height: 80px;
-    }
+    <title>WAQL Playground</title>
 
-</style>
+    <style>
+        input.break {
+            word-wrap: break-word;
+            word-break: break-all;
+            height: 80px;
+        }
+
+        /* p, td, span {
+            font-family: Tahoma;
+            font-size: 10pt;
+        } */
+
+        html {
+            font-size: 14px;
+        }        
+
+        .list-group{
+            max-height: 300px;
+            margin-bottom: 10px;
+            overflow-y:scroll;
+            -webkit-overflow-scrolling: touch;
+        }        
+    </style>
 
 </head>
 
-<body onload="onBodyLoad()">
-    <div id="load_success" class="alert alert-success" role="alert" style="display: none;">
-    </div>
-    <div id="load_error" class="alert alert-danger" role="alert" style="display: none;">
-    </div>
+<body onload="onBodyLoad()" lang="en">
 
+    <div class="container-fluid">
 
-    <form>
-        <div class="form-group">
-          <input type="text" class="form-control" id="query" oninput="update()" onkeydown='onkeydown'>
+        <!-- Success message placeholder -->
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <span id="load_success"></span>
+            <span id="load_success_project"></span>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
         </div>
-    </form>    
 
-    <div id="error" class="alert alert-danger" role="alert" style="display: none;"></div>
+        <!-- Error message placeholder -->
+        <div id="load_error" class="alert alert-danger" role="alert" style="display: none;">
+        </div>
 
-    <div id="results_block" class="alert alert-secondary" role="alert" style="display: none;">
-        <label id="results_header">Results</label>
-        <table id="results">
 
-        </table>
+        <!-- Examples -->
+        <p>
+            <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseExamples"
+                aria-expanded="false" aria-controls="collapseExample">
+                Show/Hide Examples
+            </button>
+        </p>
+        <div class="collapse" id="collapseExamples">
+            <div class="list-group" id="examples_ul">
+            </div>
+        </div>
+     
+
+        <!-- WAQL fields -->
+        <form>
+            <div class="form-group">
+                <input type="text" class="form-control" id="query" oninput="update()" onkeydown='onkeydown'
+                    placeholder="Type WAQL here">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="options" oninput="update()" onkeydown='onkeydown'
+                    placeholder="Return options">
+            </div>
+        </form>
+
+        <!-- Results Error -->
+        <div id="error" class="alert alert-danger" role="alert" style="display: none;"></div>
+
+        <!-- Results Table -->
+        <div id="results_block" class="alert alert-secondary" role="alert" style="display: none;">
+            <label id="results_header">Results</label>
+            <table id="results">
+
+            </table>
+        </div>
+
     </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
 
+    <!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 
 </body>
 
