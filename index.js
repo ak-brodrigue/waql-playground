@@ -28,7 +28,6 @@ const examples = [
     '$ where workunitType = "folder"',
     '$ where workunitType = "rootFile" and !workunitIsDefault',
     '$ where workunitIsDirty',
-
     '$ where id = "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"',
     '$ where shortId = 1588715066',
     '$ where name = "Play_Hello"',
@@ -43,7 +42,6 @@ const examples = [
     '$ where !isPlayable',
     '$ where isPlayable = false',
     '$ where type = "RandomSequenceContainer" and childrenCount > 5',    
-
     '$ from type Sound',
     '$ from type sound',
     '$ from type Event',
@@ -201,9 +199,10 @@ function onBodyLoad() {
         examples_ul.appendChild(anchor);
     })
 
-    // Default options
+    // Set Default options
     document.getElementById("options").value = '["type","name"]';
 
+    // Initiate a first connection and get the Wwise version
     waapiCall("ak.wwise.core.getInfo", {}, {}, 
         function(res){
             showMessage("load_success", `Connected to ${res.displayName} ${res.version.displayName}.`);
@@ -212,6 +211,7 @@ function onBodyLoad() {
             showMessage("load_error", `Error: ${res.message} (${res.details.reasons})!`);
         });
 
+    // Get the project name
     waapiCall("ak.wwise.core.object.get", { waql: '$ "\\"'}, {}, 
         function(res){
             showMessage("load_success_project", `Project: ${res.return[0].name}`);
