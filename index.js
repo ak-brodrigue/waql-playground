@@ -140,6 +140,17 @@ const waqlKeywords = [
     "orderby"
 ]
 
+const optionPresets = [
+    '["type", "name"]',
+    '["type", "name", "path"]',
+    '["type", "name", "id"]',
+    '["type", "name", "volume"]',
+    '["type", "name", "filepath"]',
+    '["type", "name", "parent.name"]',
+    '["type", "name", "OriginalWAVFilepath"]',
+    '["type", "name", "ConvertedWEMFilepath"]',
+]
+
 // Execute a HTTP WAAPI call
 function waapiCall(uri, args, options, onSuccess, onError) {
     let request = new XMLHttpRequest();
@@ -205,8 +216,18 @@ function onBodyLoad() {
         examples_ul.appendChild(anchor);
     })
 
-    // Set Default options
-    document.getElementById("options").value = '["type","name"]';
+    let option_presets = document.getElementById("option_presets")
+    optionPresets.forEach( option => {
+        let button = document.createElement("button");
+        button.className = "dropdown-item";
+        button.type = "button";
+        button.innerText = option;
+        button.onclick = function(){
+            document.getElementById("options").value = option;
+            update();
+        }
+        option_presets.appendChild(button);
+    })
 
     // Initiate a first connection and get the Wwise version
     waapiCall("ak.wwise.core.getInfo", {}, {}, 
@@ -228,6 +249,13 @@ function onBodyLoad() {
         });
 }
 
+function getOptions(){
+    let options = document.getElementById("options").value
+    if(!options)
+        options = `["type", "name"]`
+    return JSON.parse(options);
+}
+
 // Present results in a HTML table
 function showResults(results) {
     document.getElementById("results_block").style.display = results.length > 0 ? "block" : "none";
@@ -239,7 +267,12 @@ function showResults(results) {
         res.removeChild(res.firstChild);
     }
 
-    let options = JSON.parse(document.getElementById("options").value);
+    let options = getOptions();
+
+    // Create a table row header
+    let tr = document.createElement("tr")
+    tr.innerHTML = options.map(o => { return `<th>${o.charAt(0).toUpperCase() + o.slice(1)}</th>` }).join('');
+    res.appendChild(tr);
 
     results.forEach(obj => {
         // Create a table row
@@ -247,7 +280,7 @@ function showResults(results) {
 
         let html = options.map(o => {
             if (o === "type") {
-                return `<td><img src="images/ObjectIcons_${obj.type}_nor.svg" width="16" style="vertical-align: middle"></td>`;
+                return `<td><img src="images/ObjectIcons_${obj.type}_nor.svg" width="16" style="vertical-align: middle" onerror="this.onerror=null; this.parentElement.innerHTML = '${obj.type}'"></td>`;
             }
             return `<td>${obj[o]}</td>`
         })
@@ -260,7 +293,7 @@ function showResults(results) {
 // Update results after any change in the fields
 function update() {
     let query = document.getElementById("query").value;
-    let options = JSON.parse(document.getElementById("options").value);
+    let options = getOptions();
 
     // Execute the WAQL query, with the specified options
     waapiCall(

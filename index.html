@@ -64,13 +64,31 @@
 
         <!-- WAQL fields -->
         <form>
+            <!-- WAQL Query -->
             <div class="form-group">
-                <input type="text" class="form-control" id="query" oninput="update()" onkeydown='onkeydown'
-                    placeholder="Type WAQL here">
+                <div class="form-row">
+                    <div class="col">
+                        <input type="text" class="form-control" id="query" oninput="update()" onkeydown='onkeydown'
+                        placeholder="Type WAQL here">
+                    </div>
+                </div>
             </div>
+            <!-- WAAPI Options -->
             <div class="form-group">
-                <input type="text" class="form-control" id="options" oninput="update()" onkeydown='onkeydown'
-                    placeholder="Return options">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2" id="option_presets"></div>
+                        </div>
+                    </div>
+                    <div class="custom-file">
+                        <input type="text" class="form-control" id="options" oninput="update()" onkeydown='onkeydown'
+                            placeholder="Column options">
+                    </div>
+                </div>
             </div>
         </form>
 
@@ -80,7 +98,7 @@
         <!-- Results Table -->
         <div id="results_block" class="alert alert-secondary" role="alert" style="display: none;">
             <label id="results_header">Results</label>
-            <table id="results">
+            <table id="results" class="table table-sm">
             </table>
         </div>
 
