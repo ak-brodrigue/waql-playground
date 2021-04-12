@@ -147,12 +147,18 @@ function waapiCall(uri, args, options, onSuccess, onError) {
     request.onload = function () {
         let jsonResponse = JSON.parse(request.responseText)
         if (request.status !== 200) {
-            onError(jsonResponse)
+            if(onError)
+                onError(jsonResponse)
         }
         else {
-            onSuccess(jsonResponse)
+            if(onSuccess)
+                onSuccess(jsonResponse)
         }
     };
+    request.onerror = function(e){
+        if(onError)
+            onError({ message: "Could not connect to Wwise. Please run Wwise and refresh the page."} );
+    };        
     request.open("POST", "http://localhost:8090/waapi", true);
     request.setRequestHeader("Content-Type", "application/json");
 
@@ -205,18 +211,21 @@ function onBodyLoad() {
     // Initiate a first connection and get the Wwise version
     waapiCall("ak.wwise.core.getInfo", {}, {}, 
         function(res){
-            showMessage("load_success", `Connected to ${res.displayName} ${res.version.displayName}.`);
-        }, 
-        function(res){
-            showMessage("load_error", `Error: ${res.message} (${res.details.reasons})!`);
-        });
+            showMessage("load_success_message", `Connected to ${res.displayName} ${res.version.displayName}.`);
 
-    // Get the project name
-    waapiCall("ak.wwise.core.object.get", { waql: '$ "\\"'}, {}, 
-        function(res){
-            showMessage("load_success_project", `Project: ${res.return[0].name}`);
+            // Get the project name
+            waapiCall("ak.wwise.core.object.get", { waql: '$ "\\"'}, {}, 
+                function(res){
+                    showMessage("load_success_project", `Project: ${res.return[0].name}`);
+                }, 
+                function(res){
+                    showMessage("load_error", `Load a project in Wwise and refresh`);
+                });            
         }, 
-        null);        
+        function(res){
+            showMessage("load_error", `Error: ${res.message}`);
+            document.getElementById("load_success").style.display = "none";
+        });
 }
 
 // Present results in a HTML table
@@ -263,7 +272,10 @@ function update() {
             showResults(res.return);
             },
         function (res) {
-            showMessage("error", `Error: ${res.message} (${res.details.reasons})!`)
+            if(res.details && res.details.reasons)
+                showMessage("error", `Error: ${res.message} (${res.details.reasons})`)
+            else
+                showMessage("error", `Error: ${res.message}`)
             showResults([])
         });
 
