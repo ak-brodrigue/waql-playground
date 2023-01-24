@@ -260,6 +260,7 @@ function getOptions(){
 function showResults(results) {
     document.getElementById("results_block").style.display = results.length > 0 ? "block" : "none";
     document.getElementById("results_header").innerHTML = `Results: ${results.length} object(s)`
+    //document.getElementById("results_json").innerHTML = JSON.stringify(results, null, 3)
     html = results.map(r => `${r.name}</br>`);
 
     let res = document.getElementById("results");
@@ -282,7 +283,10 @@ function showResults(results) {
             if (o === "type") {
                 return `<td><img src="images/ObjectIcons_${obj.type}_nor.svg" width="16" style="vertical-align: middle" onerror="this.onerror=null; this.parentElement.innerHTML = '${obj.type}'"></td>`;
             }
-            return `<td>${obj[o]}</td>`
+            if(typeof obj[o] === 'object')
+                return `<td><pre>${JSON.stringify(obj[o], null, 2)}</pre></td>`
+            else
+                return `<td>${obj[o]}</td>`
         })
 
         tr.innerHTML = html.join('');
