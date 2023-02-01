@@ -192,6 +192,11 @@ var showMessage = function (kind, message) {
 // When loading the page
 function onBodyLoad() {
 
+    // Load defaults
+    document.getElementById("options").value = '["type", "id", "name"]'
+    document.getElementById("query").value = '$ from type sound'
+    update()
+
     // Load examples
     let examples_ul = document.getElementById("examples_ul")
     examples.forEach(example => {
@@ -251,8 +256,6 @@ function onBodyLoad() {
 
 function getOptions(){
     let options = document.getElementById("options").value
-    if(!options)
-        options = `["type", "name"]`
     return JSON.parse(options);
 }
 
@@ -263,16 +266,26 @@ function showResults(results) {
     //document.getElementById("results_json").innerHTML = JSON.stringify(results, null, 3)
     html = results.map(r => `${r.name}</br>`);
 
+    // Clean previous results
     let res = document.getElementById("results");
     while (res.firstChild) {
         res.removeChild(res.firstChild);
     }
 
-    let options = getOptions();
+    // First pass
+    // Find out the union of all possible columns through results
+    let optionsSet = new Set()
+    results.forEach(obj => {
+        for (var key of Object.keys(obj)) {
+            optionsSet.add(key)
+        }
+    })
+    
+    let options = Array.from(optionsSet);
 
     // Create a table row header
     let tr = document.createElement("tr")
-    tr.innerHTML = options.map(o => { return `<th>${o.charAt(0).toUpperCase() + o.slice(1)}</th>` }).join('');
+    tr.innerHTML = options.map(o => { return `<th>${o}</th>` }).join('');
     res.appendChild(tr);
 
     results.forEach(obj => {
@@ -316,7 +329,10 @@ function update() {
             showResults([])
         });
 
-    // Also push the query to the list view
-    waapiCall("ak.wwise.ui.commands.execute", { command: 'ShowListView', value: query }, {}, null, null);
+    if(document.getElementById("showInListView").checked){
+        // Also push the query to the list view
+        waapiCall("ak.wwise.ui.commands.execute", { command: 'ShowListView', value: query }, {}, null, null);
+
+    }
 }
 

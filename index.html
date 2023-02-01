@@ -52,10 +52,15 @@
 
         <!-- Examples -->
         <p>
-            <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseExamples"
-                aria-expanded="false" aria-controls="collapseExample">
-                Show/Hide Examples
-            </button>
+            <div class="form-check form-check-inline">
+                <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseExamples"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    Show/Hide Examples
+                </button> &nbsp;               
+            </div>          
+
+
+        
         </p>
         <div class="collapse" id="collapseExamples">
             <div class="list-group" id="examples_ul">
@@ -87,6 +92,13 @@
                     <div class="custom-file">
                         <input type="text" class="form-control" id="options" oninput="update()" onkeydown='onkeydown'
                             placeholder="Column options">
+                    </div>
+                    &nbsp;
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="showInListView">
+                        <label class="form-check-label" for="showInListView">
+                          Show in List View
+                        </label>
                     </div>
                 </div>
             </div>
