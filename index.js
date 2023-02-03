@@ -87,8 +87,8 @@ const examples = [
     '$ from type Sound where notes : "All"',
     '$ from type Sound where notes : "*audiokinetic*"',
     '$ from type Sound where UserAuxSend0 != null',
-    '$ from type Sound where convertedWemFilePath : "hello"',
-    '$ from type Sound where originalWavFilePath : "hello"',
+    '$ from type Sound where convertedFilePath : "hello"',
+    '$ from type Sound where originalFilePath : "hello"',
     '$ from type Sound where outputBus="Bus:Master Audio Bus"',
     '$ from type Sound where parent.name : "*engine"',
     '$ from type Sound where outputBus="Bus:Master Audio Bus"',
@@ -147,8 +147,8 @@ const optionPresets = [
     '["type", "name", "volume"]',
     '["type", "name", "filepath"]',
     '["type", "name", "parent.name"]',
-    '["type", "name", "OriginalWAVFilepath"]',
-    '["type", "name", "ConvertedWEMFilepath"]',
+    '["type", "name", "OriginalFilepath"]',
+    '["type", "name", "ConvertedFilepath"]',
 ]
 
 // Execute a HTTP WAAPI call
@@ -197,7 +197,7 @@ function onBodyLoad() {
     document.getElementById("query").value = '$ from type sound'
     update()
 
-    // Load examples
+    // Load examples    
     let examples_ul = document.getElementById("examples_ul")
     examples.forEach(example => {
         let html = example;
@@ -281,7 +281,17 @@ function showResults(results) {
         }
     })
     
-    let options = Array.from(optionsSet);
+    let returnOptions = getOptions();
+    let options = [];
+    returnOptions.forEach(option => {
+        if(optionsSet.has(option))
+        {
+            options.push(option);
+            optionsSet.delete(option)
+        }
+    })
+
+    options = options.concat( Array.from(optionsSet) );
 
     // Create a table row header
     let tr = document.createElement("tr")
