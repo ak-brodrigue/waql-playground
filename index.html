@@ -8,6 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <script src="index.js"></script>
 
     <title>WAQL Playground</title>
@@ -109,7 +110,15 @@
 
         <!-- Results Table -->
         <div id="results_block" class="alert alert-secondary" role="alert" style="display: none;">
-            <label id="results_header">Results</label>
+            <div style="display:flex; align-items:center; gap:8px; margin-bottom:4px;">
+                <label id="results_header" style="margin:0;">Results</label>
+                <button onclick="update()" class="btn btn-sm btn-outline-secondary" title="Refresh results">
+                    <span class="material-icons" style="font-size:18px; vertical-align:middle;">refresh</span>
+                </button>
+                <button id="copy_btn" onclick="copyTableToTSV()" class="btn btn-sm btn-outline-secondary" title="Copy table as TSV">
+                    <span class="material-icons" style="font-size:18px; vertical-align:middle;">content_copy</span>
+                </button>
+            </div>
             <!-- <pre class="border border-secondary"><code id="results_json"></code></pre> -->
             <table id="results" class="table table-sm">
             </table>

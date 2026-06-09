@@ -1,3 +1,6 @@
+let lastResults = [];
+let lastOptions = [];
+
 const examples = [
     '$ where volume = -1',
     '$ where volume < 0',
@@ -149,6 +152,7 @@ const optionPresets = [
     '["type", "name", "parent.name"]',
     '["type", "name", "OriginalFilepath"]',
     '["type", "name", "ConvertedFilepath"]',
+    '["type", "name", "ColorRGB"]',
 ]
 
 // Execute a HTTP WAAPI call
@@ -298,6 +302,9 @@ function showResults(results) {
     tr.innerHTML = options.map(o => { return `<th>${o}</th>` }).join('');
     res.appendChild(tr);
 
+    lastResults = results;
+    lastOptions = options;
+
     results.forEach(obj => {
         // Create a table row
         let tr = document.createElement("tr")
@@ -305,6 +312,10 @@ function showResults(results) {
         let html = options.map(o => {
             if (o === "type") {
                 return `<td><img src="images/ObjectIcons_${obj.type}_nor.svg" width="16" style="vertical-align: middle" onerror="this.onerror=null; this.parentElement.innerHTML = '${obj.type}'"></td>`;
+            }
+            if(o.toLowerCase() === 'colorrgb') {
+                let color = obj[o];
+                return `<td><span title="${color}" style="display:inline-block;width:16px;height:16px;background-color:${color};border:1px solid #000;vertical-align:middle"></span></td>`;
             }
             if(typeof obj[o] === 'object')
                 return `<td><pre>${JSON.stringify(obj[o], null, 2)}</pre></td>`
@@ -314,6 +325,25 @@ function showResults(results) {
 
         tr.innerHTML = html.join('');
         res.appendChild(tr);
+    });
+}
+
+function copyTableToTSV() {
+    const header = lastOptions.join('\t');
+    const rows = lastResults.map(obj =>
+        lastOptions.map(o => {
+            if (o === 'type') return obj.type ?? '';
+            if (typeof obj[o] === 'object' && obj[o] !== null) return JSON.stringify(obj[o]);
+            return String(obj[o] ?? '');
+        }).join('\t')
+    );
+    const tsv = [header, ...rows].join('\n');
+
+    navigator.clipboard.writeText(tsv).then(() => {
+        const btn = document.getElementById('copy_btn');
+        const original = btn.innerHTML;
+        btn.innerHTML = 'Copied!';
+        setTimeout(() => { btn.innerHTML = original; }, 1500);
     });
 }
 
